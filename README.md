@@ -6,4 +6,4 @@ docker-compose up
 ```
 
 # Screenshot
-![Wynik po odpaleniu w konsoli](images/screen1.jpg)
+![Wynik po odpaleniu w konsoli](images/screen2.jpg)
