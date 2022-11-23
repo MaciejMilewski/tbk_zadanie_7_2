@@ -2,7 +2,7 @@ version: "3.9"
 services:
   todo-db:
     image: diamol/postgres:11.5
-    restart: always
+    restart: on-failure
     ports:
       - "5433:5432"
     networks:
@@ -12,7 +12,7 @@ services:
 
   todo-web:
     image: diamol/ch06-todo-list
-    restart: always
+    restart: on-failure
     ports:
       - "80:80"
     environment:
